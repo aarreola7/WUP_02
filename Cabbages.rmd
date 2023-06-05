@@ -46,7 +46,7 @@ ggplot(veggy, aes(x = Cult, y = VitC)) +
   theme(plot.title = element_text(hjust = 0.5, size = 16))
 ```
 
-
+If you look at the 2 boxes on the box plot, the major box is above the lower one. The middle 50% of the method of the higher box is quiet a bit different between the C39 and C52 boxes. These are completely apaart from each other. We think we will find a statistical dfference within these 2 methods.
 
 
 
@@ -54,9 +54,16 @@ ggplot(veggy, aes(x = Cult, y = VitC)) +
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
 
 
 # Discussion and Conclusion

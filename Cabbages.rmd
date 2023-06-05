@@ -58,7 +58,7 @@ If you look at the 2 boxes on the box plot, the major box is above the lower one
 favstats(VitC~Cult,data=veggy)
 ```
 
-
+The average amount of Vitamin C39 is 51. The average amount of vitamin C52is 64.5, Box C39 hasno overlapping. The numerical difference is stated in the amount.
 
 ## Inferential Results
 

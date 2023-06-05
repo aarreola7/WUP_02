@@ -68,7 +68,7 @@ The average amount of Vitamin C39 is 51. The average amount of vitamin C52is 64.
 t.test(VitC~Cult,data=veggy)
 ```
 
-The probability of getting a result as we just ovtain is .000000003405, which is a small number and is the result of what we got. Comparing C39 and C52, the vitamin is so low. It is possible that it might happen but the proobability is very low.The hypothosis is to be rejected . The method is different. 
+The probability of getting a result as we just ovtain is .000000003405, which is a small number and is the result of what we got. Comparing C39 and C52, the vitamin is so low. It is possible that it might happen but the probability is very low.The hypothesis is to be rejected . The method is different. 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
